@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TaxiStation.ModelCar.Car" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AghAAAAQAAAAAAABCAMEAIIAAAAACEAABwAAgAAAAAA=</HashCode>
+      <FileName>ModelCar\Car.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaxiStation.ModelCar.AsianCars.AsianCar" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\AsianCars\AsianCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.AmericanCars.AmericanCar" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\AmericanCars\AmericanCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.AmericanCars.USA.UsaCar" Collapsed="true">
+    <Position X="18.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\AmericanCars\USA\UsaCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.AsianCars.China.ChineseCar" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\AsianCars\China\ChineseCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.AsianCars.Japan.JapaneseCar" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\AsianCars\Japan\JapaneseCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.EuropeanCars.EuropeanCar" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\EuropeanCars\EuropeanCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.EuropeanCars.France.FrenchCar" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\EuropeanCars\France\FrenchCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.EuropeanCars.Germany.AUDI.Audi" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\EuropeanCars\Germany\AUDI\Audi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.EuropeanCars.Germany.AUDI.ModelsAudi.AudiA6" Collapsed="true">
+    <Position X="14" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\EuropeanCars\Germany\AUDI\ModelsAudi\AudiA6.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.EuropeanCars.Germany.BMW.Bmw" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\EuropeanCars\Germany\BMW\Bmw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.EuropeanCars.Germany.BMW.ModelsBMW.BmwX5" Collapsed="true">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\EuropeanCars\Germany\BMW\ModelsBMW\BmwX5.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.EuropeanCars.Germany.GermanCar" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\EuropeanCars\Germany\GermanCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.EuropeanCars.Germany.Mercedes.MercedesBenz" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\EuropeanCars\Germany\Mercedes\MercedesBenz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.EuropeanCars.Germany.Mercedes.ModelsMercedes.MerceresVito" Collapsed="true">
+    <Position X="16.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\EuropeanCars\Germany\Mercedes\ModelsMercedes\MerceresVito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.EuropeanCars.Italy.ItalianCar" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\EuropeanCars\Italy\ItalianCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.ModelCar.EuropeanCars.Russia.RussianCar" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\EuropeanCars\Russia\RussianCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.TypesOfBody.TypeOfBody" Collapsed="true">
+    <Position X="10.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypesOfBody\TypeOfBody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.TypesOfBody.Types.Cabriolet" Collapsed="true">
+    <Position X="5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypesOfBody\Types\Cabriolet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.TypesOfBody.Types.Coupe" Collapsed="true">
+    <Position X="11.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypesOfBody\Types\Coupe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.TypesOfBody.Types.Crossover" Collapsed="true">
+    <Position X="18.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypesOfBody\Types\Crossover.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.TypesOfBody.Types.Hatchback" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypesOfBody\Types\Hatchback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.TypesOfBody.Types.Limousine" Collapsed="true">
+    <Position X="7.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypesOfBody\Types\Limousine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.TypesOfBody.Types.Minivan" Collapsed="true">
+    <Position X="14" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypesOfBody\Types\Minivan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.TypesOfBody.Types.Pickup" Collapsed="true">
+    <Position X="20.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypesOfBody\Types\Pickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.TypesOfBody.Types.Roadster" Collapsed="true">
+    <Position X="2.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypesOfBody\Types\Roadster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.TypesOfBody.Types.Sedan" Collapsed="true">
+    <Position X="9.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypesOfBody\Types\Sedan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStation.TypesOfBody.Types.Touring" Collapsed="true">
+    <Position X="16.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypesOfBody\Types\Touring.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TaxiStation.ModelCar.IWorkable" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelCar\IWorkable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

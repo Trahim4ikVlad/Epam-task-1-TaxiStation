@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B04F343C-1CAA-492C-B675-7C0BF9E1DE1C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TaxiStation</RootNamespace>
+    <AssemblyName>TaxiStation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>39E22D6D582CD3F91EC18B48C7A46E7FC85A35CB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TaxiStation_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassesOfCars\Classes\C.cs" />
+    <Compile Include="ClassesOfCars\Classes\A.cs" />
+    <Compile Include="ClassesOfCars\Classes\B.cs" />
+    <Compile Include="ClassesOfCars\Classes\E.cs" />
+    <Compile Include="ClassesOfCars\Classes\F.cs" />
+    <Compile Include="ClassesOfCars\ClassOfCar.cs" />
+    <Compile Include="ClassesOfCars\Classes\D.cs" />
+    <Compile Include="ModelCar\AmericanCars\AmericanCar.cs" />
+    <Compile Include="ModelCar\AmericanCars\USA\UsaCar.cs" />
+    <Compile Include="ModelCar\AsianCars\AsianCar.cs" />
+    <Compile Include="ModelCar\AsianCars\China\ChineseCar.cs" />
+    <Compile Include="ModelCar\AsianCars\Japan\JapaneseCar.cs" />
+    <Compile Include="ModelCar\Car.cs" />
+    <Compile Include="ModelCar\EuropeanCars\EuropeanCar.cs" />
+    <Compile Include="ModelCar\EuropeanCars\France\FrenchCar.cs" />
+    <Compile Include="ModelCar\EuropeanCars\Germany\AUDI\Audi.cs" />
+    <Compile Include="ModelCar\EuropeanCars\Germany\AUDI\ModelsAudi\AudiA6.cs" />
+    <Compile Include="ModelCar\EuropeanCars\Germany\BMW\Bmw.cs" />
+    <Compile Include="ModelCar\EuropeanCars\Germany\BMW\ModelsBMW\BmwX5.cs" />
+    <Compile Include="ModelCar\EuropeanCars\Germany\GermanCar.cs" />
+    <Compile Include="ModelCar\EuropeanCars\Germany\Mercedes\MercedesBenz.cs" />
+    <Compile Include="ModelCar\EuropeanCars\Germany\Mercedes\ModelsMercedes\MerceresVito.cs" />
+    <Compile Include="ModelCar\EuropeanCars\Italy\ItalianCar.cs" />
+    <Compile Include="ModelCar\EuropeanCars\Russia\RussianCar.cs" />
+    <Compile Include="ModelCar\IPassenger.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Specifications\Dimensions.cs" />
+    <Compile Include="Specifications\Fuel.cs" />
+    <Compile Include="Specifications\FuelConsumption.cs" />
+    <Compile Include="Station.cs" />
+    <Compile Include="TypesOfBody\TypeOfBody.cs" />
+    <Compile Include="TypesOfBody\Types\Cabriolet.cs" />
+    <Compile Include="TypesOfBody\Types\Coupe.cs" />
+    <Compile Include="TypesOfBody\Types\Crossover.cs" />
+    <Compile Include="TypesOfBody\Types\Hatchback.cs" />
+    <Compile Include="TypesOfBody\Types\Limousine.cs" />
+    <Compile Include="TypesOfBody\Types\Minivan.cs" />
+    <Compile Include="TypesOfBody\Types\Pickup.cs" />
+    <Compile Include="TypesOfBody\Types\Roadster.cs" />
+    <Compile Include="TypesOfBody\Types\Sedan.cs" />
+    <Compile Include="TypesOfBody\Types\Touring.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Diagram.cd" />
+    <None Include="TaxiStation_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ModelCar\EuropeanCars\France\Renault\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\Vlad\Documents\Visual Studio 2012\Projects\Epam-task-1-TaxiStation\TaxiStation\TaxiStation\bin\Debug\TaxiStation.exe.config
+C:\Users\Vlad\Documents\Visual Studio 2012\Projects\Epam-task-1-TaxiStation\TaxiStation\TaxiStation\bin\Debug\TaxiStation.exe
+C:\Users\Vlad\Documents\Visual Studio 2012\Projects\Epam-task-1-TaxiStation\TaxiStation\TaxiStation\bin\Debug\TaxiStation.pdb
+C:\Users\Vlad\Documents\Visual Studio 2012\Projects\Epam-task-1-TaxiStation\TaxiStation\TaxiStation\obj\Debug\TaxiStation.csprojResolveAssemblyReference.cache
+C:\Users\Vlad\Documents\Visual Studio 2012\Projects\Epam-task-1-TaxiStation\TaxiStation\TaxiStation\obj\Debug\TaxiStation.exe
+C:\Users\Vlad\Documents\Visual Studio 2012\Projects\Epam-task-1-TaxiStation\TaxiStation\TaxiStation\obj\Debug\TaxiStation.pdb
+C:\Users\Vlad\Documents\Visual Studio 2012\Projects\Epam-task-1-TaxiStation\TaxiStation\TaxiStation\bin\Debug\TaxiStation.exe.manifest
+C:\Users\Vlad\Documents\Visual Studio 2012\Projects\Epam-task-1-TaxiStation\TaxiStation\TaxiStation\bin\Debug\TaxiStation.application
+C:\Users\Vlad\Documents\Visual Studio 2012\Projects\Epam-task-1-TaxiStation\TaxiStation\TaxiStation\obj\Debug\TaxiStation.exe.manifest
+C:\Users\Vlad\Documents\Visual Studio 2012\Projects\Epam-task-1-TaxiStation\TaxiStation\TaxiStation\obj\Debug\TaxiStation.application
